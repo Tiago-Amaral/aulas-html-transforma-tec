@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <table>
+            <th>Formulario de cadastro</th>
+            <tr>
+                <td><label for="name">Nome: </label></td>
+                <td><input type="text" id="nome" name="nome" placeholder="Nome"></td>
+            </tr>
+            <tr>
+                <td><label for="text">Sobrenome: </label></td>
+                <td><input type="password" placeholder="Sobrenome"></td>
+            </tr>
+
+            <tr>
+                <td><label for="text">Endereço: </label></td>
+                <td><textarea id="story" name="story" rows="5" cols="33" placeholder="Digite aqui"></textarea></td>
+            </tr>
+
+            <!-- checkbox-->
+
+            <tr>
+                <td><label for="text">Disciplinas</label></td>
+                <td><input type="checkbox">
+                    <label for="vehicle1"> Programação</label><br>
+                    <input type="checkbox">
+                    <label for="vehicle2"> Lógica</label><br>
+                    <input type="checkbox">
+                    <label for="vehicle3">Algoritimos</label> <br>
+                    <input type="checkbox">
+                    <label for="vehicle3"> Banco de Dados</label><br>
+                    <input type="checkbox">
+                    <label for="vehicle3"> Mobile</label><br>
+                </td>
+
+            </tr>
+            <!--sexo-->
+            <tr>
+                <td><label for="text">Genero</label></td>
+                <td>
+                    <input type="radio" id="f" name="s1">
+                    <label for="text">Masculino</label>
+
+                    <input type="radio" id="m" name="s1">
+                    <label for="css">Feminino</label>
+
+                    <input type="radio" id="n" name="s1">
+                    <label for="text">Outros</label>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="idade">Idade</label></td>
+                <td>
+                    <select id="idade" name="idade">
+                        <option value="">Select</option>
+                        <option value="c">Criança</option>
+                        <option value="a">Adulto</option>
+                        <option value="i">Idoso</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="picture">Foto de perfil</label></td>
+                <td><input id="picture" type="file" name="picture" required="true" /></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Cadastrar" name="cadastrar" id="cadastrar" />
+                    <input type="reset" value="Limpar" name="limpar" id="cadastrar" />
+                </td>
+            </tr>
+
+            <!-- <tr>
+                    
+                    <td><input type="reset" value="Confirmar" placeholder="Confirmar"></td>
+                </tr> -->
+        </table>
+
+
+</body>
+
+</html>
